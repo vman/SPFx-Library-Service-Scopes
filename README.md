@@ -1,1 +1,1 @@
-SPFx Library components using Serice Scopes to instantiate MSGraphClient
+SPFx Library components using Service Scopes to instantiate MSGraphClient
