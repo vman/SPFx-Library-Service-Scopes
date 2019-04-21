@@ -1,8 +1,8 @@
-# Using Service Locator pattern in SPFx with Library components
+## Using Service Locator pattern in SPFx with Library components
  
 ### Create a custom service which exposes operations with MSGraphClient and host it in a SPFx library component. Consume this service from a standard SPFx web part.
 
-#### Custom service hosted in an SPFx library component:
+Custom service hosted in an SPFx library component:
 
 ```ts
 import { ServiceKey, ServiceScope } from '@microsoft/sp-core-library';
@@ -38,7 +38,7 @@ export class CustomGraphService implements ICustomGraphService {
 }
 ```
 
-#### Consuming the service from an SPFx webpart or an extension:
+Consuming the service from an SPFx webpart or an extension:
 
 ```js
 //package.json
