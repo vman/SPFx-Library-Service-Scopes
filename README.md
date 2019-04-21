@@ -1,6 +1,6 @@
-## Using Service Locator pattern in SPFx with Library components
+### Using Service Locator pattern in SPFx with Library components
  
-### Create a custom service which exposes operations with MSGraphClient and host it in a SPFx library component. Consume this service from a standard SPFx web part.
+Create a custom service which exposes operations with MSGraphClient and host it in a SPFx library component. Consume this service from a standard SPFx web part.
 
 Custom service hosted in an SPFx library component:
 
